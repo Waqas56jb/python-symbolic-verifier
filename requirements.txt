@@ -1,0 +1,5 @@
+astunparse==1.6.3
+z3-solver==4.12.2.0
+pycparser==2.21
+astor==0.8.1
+jsonschema==4.17.3
