@@ -6,39 +6,31 @@ h1, h2 { color: #333; }
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
 th { background-color: #f2f2f2; }
+.safe { color: green; }
+.unsafe { color: red; }
+.error { color: red; font-weight: bold; }
 </style>
 </head><body>
 <h1>PyVeriCheck - Python Model Checker Results</h1>
 <h2>Summary</h2>
 <table>
-<tr><th>Total Checks</th><td>8</td></tr>
-<tr><th>Issues Found</th><td>7</td></tr>
-<tr><th>Code Safety</th><td>12.50%</td></tr>
-<tr><th>Execution Time</th><td>1.61 seconds</td></tr>
+<tr><th>Error in Code</th><td class='error'>Syntax error in source code: expected ':' (<unknown>, line 3)</td></tr>
+<tr><th>Total Checks</th><td>0</td></tr>
+<tr><th>Issues Found</th><td>0</td></tr>
+<tr><th>Code Safety Percentage</th><td class=''>100.00%</td></tr>
+<tr><th>Execution Time</th><td>0.02 seconds</td></tr>
 </table>
 <h2>Vulnerabilities Found</h2>
 <h3>Division By Zero</h3>
-<ul>
-<li>Potential division by zero at line 20</li>
-</ul>
+<p>None found</p>
 <h3>Indexing Errors</h3>
-<ul>
-<li>Potential out-of-bounds access at line 24</li>
-</ul>
+<p>None found</p>
 <h3>Arithmetic Overflow</h3>
-<ul>
-<li>Potential arithmetic overflow at line 9</li>
-<li>Potential arithmetic overflow at line 13</li>
-<li>Potential arithmetic overflow at line 26</li>
-</ul>
+<p>None found</p>
 <h3>Assertion Failures</h3>
-<ul>
-<li>Potential assertion failure at line 28</li>
-</ul>
+<p>None found</p>
 <h3>Recursive Function Errors</h3>
-<ul>
-<li>Potential infinite recursion in recursive_factorial at line 11</li>
-</ul>
+<p>None found</p>
 <h3>Import Errors</h3>
 <p>None found</p>
 </body></html>

@@ -1,28 +1,27 @@
 PyVeriCheck - Python Model Checker Results
 ========================================
 Summary:
-- Total Checks: 8
-- Issues Found: 7
-- Code Safety: 12.50%
-- Execution Time: 1.61 seconds
+- Error in Code: Syntax error in source code: expected ':' (<unknown>, line 3)
+- Total Checks: 0
+- Issues Found: 0
+- Code Safety Percentage: 100.00%
+- Execution Time: 0.02 seconds
 
 Vulnerabilities Found:
 Division By Zero:
-- Potential division by zero at line 20
+- None found
 
 Indexing Errors:
-- Potential out-of-bounds access at line 24
+- None found
 
 Arithmetic Overflow:
-- Potential arithmetic overflow at line 9
-- Potential arithmetic overflow at line 13
-- Potential arithmetic overflow at line 26
+- None found
 
 Assertion Failures:
-- Potential assertion failure at line 28
+- None found
 
 Recursive Function Errors:
-- Potential infinite recursion in recursive_factorial at line 11
+- None found
 
 Import Errors:
 - None found

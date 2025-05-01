@@ -1,7 +1,7 @@
 
 # API Reference: PyVeriCheck
 ## Parser
-- parse_to_ast(): Parse code to AST.
+- parse_to_ast(): Parse code to AST, returns success boolean.
 - ast_to_json(): Export JSON AST.
 - get_control_structures(): List control structures.
 - get_oop_elements(): List OOP elements.
