@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MathProcessor",
+    "type": "str",
+    "scope": "global",
+    "lineno": 4
+  },
+  {
+    "name": "recursive_factorial",
+    "type": "str",
+    "scope": "global",
+    "lineno": 11,
+    "args": {
+      "n": "int"
+    }
+  },
+  {
+    "name": "process_input",
+    "type": "str",
+    "scope": "global",
+    "lineno": 16,
+    "args": {
+      "x": "int"
+    }
+  }
+]

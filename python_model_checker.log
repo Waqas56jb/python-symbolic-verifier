@@ -1,0 +1,652 @@
+2025-05-02 02:28:55,312 - INFO - Starting PyVeriCheck with user input
+2025-05-02 02:29:42,271 - INFO - Using user-provided or default test code
+2025-05-02 02:29:42,286 - INFO - Parser initialized with user input
+2025-05-02 02:29:42,287 - ERROR - Syntax error in source code: expected ':' (<unknown>, line 3)
+2025-05-02 02:29:42,287 - WARNING - Skipping type annotation due to parse failure
+2025-05-02 02:29:42,288 - INFO - IRConverter initialized
+2025-05-02 02:29:42,288 - INFO - Added CFG start node
+2025-05-02 02:29:42,298 - INFO - Added CFG end node
+2025-05-02 02:29:42,305 - INFO - Saved CFG to cfg.json
+2025-05-02 02:29:42,322 - INFO - ESBMCWrapper initialized
+2025-05-02 02:29:42,323 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 0, 'cfg_nodes': 2, 'errors': [], 'warnings': [{'type': 'cfg_warning', 'message': 'Control flow graph is incomplete', 'location': {'line': 1}}]}
+2025-05-02 02:29:42,340 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:29:42,349 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:29:42,352 - INFO - Starting vulnerability checks
+2025-05-02 02:29:42,353 - INFO - Completed vulnerability checks
+2025-05-02 02:29:42,355 - INFO - CorrectnessChecker initialized
+2025-05-02 02:29:42,373 - INFO - Starting benchmark
+2025-05-02 02:29:42,374 - INFO - ESBMCWrapper initialized
+2025-05-02 02:29:42,385 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 0, 'cfg_nodes': 2, 'errors': [], 'warnings': [{'type': 'cfg_warning', 'message': 'Control flow graph is incomplete', 'location': {'line': 1}}]}
+2025-05-02 02:29:42,389 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:29:42,398 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:29:42,400 - INFO - Starting vulnerability checks
+2025-05-02 02:29:42,403 - INFO - Completed vulnerability checks
+2025-05-02 02:29:42,404 - INFO - Benchmark completed in 0.03 seconds
+2025-05-02 02:29:42,405 - INFO - Comparison with other tools: {'PythonModelChecker': {'time': 0.029995441436767578, 'vulnerabilities': 0}, 'PyLint': {'time': 0.04499316215515137, 'vulnerabilities': 'Not implemented'}, 'Bandit': {'time': 0.035994529724121094, 'vulnerabilities': 'Not implemented'}}
+2025-05-02 02:29:42,408 - INFO - Generated text report: results.txt
+2025-05-02 02:29:42,421 - INFO - Generated HTML report: results.html
+2025-05-02 02:29:42,667 - INFO - VerificationUI initialized
+2025-05-02 02:29:50,870 - INFO - Generated documentation: design.md, api_reference.md
+2025-05-02 02:32:39,123 - INFO - Starting PyVeriCheck with user input
+2025-05-02 02:32:56,409 - INFO - Using user-provided or default test code
+2025-05-02 02:32:56,411 - INFO - Parser initialized with user input
+2025-05-02 02:32:56,415 - INFO - Successfully parsed source code to AST
+2025-05-02 02:32:56,423 - INFO - Found control structure: If at line 65
+2025-05-02 02:32:56,429 - INFO - Found control structure: For at line 16
+2025-05-02 02:32:56,430 - INFO - Found control structure: Try at line 66
+2025-05-02 02:32:56,431 - INFO - Found control structure: Try at line 69
+2025-05-02 02:32:56,431 - INFO - Found control structure: Try at line 72
+2025-05-02 02:32:56,431 - INFO - Found control structure: Try at line 75
+2025-05-02 02:32:56,432 - INFO - Found control structure: Try at line 78
+2025-05-02 02:32:56,443 - INFO - Found control structure: Try at line 81
+2025-05-02 02:32:56,445 - INFO - Found control structure: Try at line 84
+2025-05-02 02:32:56,464 - INFO - TypeChecker initialized
+2025-05-02 02:32:56,464 - INFO - Annotated function divide_values with type function at line 11
+2025-05-02 02:32:56,465 - INFO - Annotated function index_errors with type function at line 23
+2025-05-02 02:32:56,471 - INFO - Annotated function assertions with type function at line 35
+2025-05-02 02:32:56,475 - INFO - Annotated function infinite1 with type function at line 47
+2025-05-02 02:32:56,480 - INFO - Annotated function infinite2 with type function at line 50
+2025-05-02 02:32:56,481 - INFO - Annotated function infinite3 with type function at line 53
+2025-05-02 02:32:56,490 - INFO - Annotated function indirect_a with type function at line 58
+2025-05-02 02:32:56,494 - INFO - Annotated function indirect_b with type function at line 60
+2025-05-02 02:32:56,496 - INFO - Annotated function inner with type function at line 54
+2025-05-02 02:32:56,498 - INFO - Annotated variable a with type str at line 12
+2025-05-02 02:32:56,505 - INFO - Annotated variable b with type str at line 13
+2025-05-02 02:32:56,509 - INFO - Annotated variable i with type str at line 16
+2025-05-02 02:32:56,510 - INFO - Annotated variable val with type str at line 18
+2025-05-02 02:32:56,511 - INFO - Annotated variable arr with type str at line 24
+2025-05-02 02:32:56,512 - INFO - Annotated variable arr2 with type str at line 26
+2025-05-02 02:32:56,513 - INFO - Annotated variable text with type str at line 28
+2025-05-02 02:32:56,513 - INFO - Annotated variable matrix with type str at line 30
+2025-05-02 02:32:56,514 - INFO - Annotated variable x with type str at line 36
+2025-05-02 02:32:56,514 - INFO - Annotated variable y with type str at line 38
+2025-05-02 02:32:56,516 - INFO - Annotated variable z with type str at line 40
+2025-05-02 02:32:56,522 - INFO - Annotated variable flag with type str at line 42
+2025-05-02 02:32:56,526 - INFO - Annotated variable flag with type str at line 43
+2025-05-02 02:32:56,527 - INFO - Annotated variable __name__ with type str at line 65
+2025-05-02 02:32:56,529 - INFO - Annotated variable print with type str at line 14
+2025-05-02 02:32:56,531 - INFO - Annotated variable print with type str at line 15
+2025-05-02 02:32:56,532 - INFO - Annotated variable range with type str at line 16
+2025-05-02 02:32:56,538 - INFO - Annotated variable x with type str at line 17
+2025-05-02 02:32:56,543 - INFO - Annotated variable print with type str at line 19
+2025-05-02 02:32:56,545 - INFO - Annotated variable print with type str at line 25
+2025-05-02 02:32:56,545 - INFO - Annotated variable print with type str at line 27
+2025-05-02 02:32:56,546 - INFO - Annotated variable print with type str at line 29
+2025-05-02 02:32:56,547 - INFO - Annotated variable print with type str at line 31
+2025-05-02 02:32:56,547 - INFO - Annotated variable x with type str at line 37
+2025-05-02 02:32:56,556 - INFO - Annotated variable isinstance with type str at line 39
+2025-05-02 02:32:56,559 - INFO - Annotated variable y with type str at line 39
+2025-05-02 02:32:56,561 - INFO - Annotated variable int with type str at line 39
+2025-05-02 02:32:56,607 - INFO - Annotated variable infinite1 with type str at line 48
+2025-05-02 02:32:56,652 - INFO - Annotated variable infinite2 with type str at line 51
+2025-05-02 02:32:56,774 - INFO - Annotated variable inner with type str at line 56
+2025-05-02 02:32:56,810 - INFO - Annotated variable indirect_b with type str at line 59
+2025-05-02 02:32:56,812 - INFO - Annotated variable indirect_a with type str at line 61
+2025-05-02 02:32:56,813 - INFO - Annotated variable a with type str at line 14
+2025-05-02 02:32:56,815 - INFO - Annotated variable b with type str at line 14
+2025-05-02 02:32:56,819 - INFO - Annotated variable arr with type str at line 25
+2025-05-02 02:32:56,821 - INFO - Annotated variable arr2 with type str at line 27
+2025-05-02 02:32:56,822 - INFO - Annotated variable text with type str at line 29
+2025-05-02 02:32:56,823 - INFO - Annotated variable len with type str at line 41
+2025-05-02 02:32:56,825 - INFO - Annotated variable z with type str at line 41
+2025-05-02 02:32:56,848 - INFO - Annotated variable inner with type str at line 55
+2025-05-02 02:32:56,873 - INFO - Annotated variable divide_values with type str at line 66
+2025-05-02 02:32:56,875 - INFO - Annotated variable index_errors with type str at line 69
+2025-05-02 02:32:56,877 - INFO - Annotated variable assertions with type str at line 72
+2025-05-02 02:32:56,878 - INFO - Annotated variable infinite1 with type str at line 75
+2025-05-02 02:32:56,880 - INFO - Annotated variable infinite2 with type str at line 78
+2025-05-02 02:32:56,884 - INFO - Annotated variable infinite3 with type str at line 81
+2025-05-02 02:32:56,886 - INFO - Annotated variable indirect_a with type str at line 84
+2025-05-02 02:32:56,887 - INFO - Annotated variable i with type str at line 17
+2025-05-02 02:32:56,890 - INFO - Annotated variable i with type str at line 17
+2025-05-02 02:32:56,891 - INFO - Annotated variable val with type str at line 19
+2025-05-02 02:32:56,892 - INFO - Annotated variable matrix with type str at line 31
+2025-05-02 02:32:56,907 - INFO - Exported AST to ast_output.json
+2025-05-02 02:32:56,929 - INFO - Exported annotated AST to ast_annotated.json
+2025-05-02 02:32:56,930 - INFO - IRConverter initialized
+2025-05-02 02:32:56,930 - INFO - Added function: divide_values
+2025-05-02 02:32:56,930 - INFO - Added function: index_errors
+2025-05-02 02:32:56,931 - INFO - Added function: assertions
+2025-05-02 02:32:56,932 - INFO - Added function: infinite1
+2025-05-02 02:32:56,933 - INFO - Added function: infinite2
+2025-05-02 02:32:56,935 - INFO - Added function: infinite3
+2025-05-02 02:32:56,936 - INFO - Added function: indirect_a
+2025-05-02 02:32:56,937 - INFO - Added function: indirect_b
+2025-05-02 02:32:56,940 - INFO - Saved symbol table to symbol_table.json
+2025-05-02 02:32:56,941 - INFO - Added CFG start node
+2025-05-02 02:32:56,942 - INFO - Added CFG node: If at line 65
+2025-05-02 02:32:56,942 - INFO - Added CFG node: For at line 16
+2025-05-02 02:32:56,943 - INFO - Added CFG node: Try at line 66
+2025-05-02 02:32:56,943 - INFO - Added CFG node: Try at line 69
+2025-05-02 02:32:56,944 - INFO - Added CFG node: Try at line 72
+2025-05-02 02:32:56,944 - INFO - Added CFG node: Try at line 75
+2025-05-02 02:32:56,945 - INFO - Added CFG node: Try at line 78
+2025-05-02 02:32:56,946 - INFO - Added CFG node: Try at line 81
+2025-05-02 02:32:56,947 - INFO - Added CFG node: Try at line 84
+2025-05-02 02:32:56,952 - INFO - Added CFG end node
+2025-05-02 02:32:56,957 - INFO - Saved CFG to cfg.json
+2025-05-02 02:32:56,958 - INFO - ESBMCWrapper initialized
+2025-05-02 02:32:56,959 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 8, 'cfg_nodes': 11, 'errors': [], 'warnings': []}
+2025-05-02 02:32:56,966 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:32:56,968 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:32:56,969 - INFO - Starting vulnerability checks
+2025-05-02 02:32:56,993 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,013 - INFO - Solver check result: sat
+2025-05-02 02:32:57,014 - WARNING - Potential division by zero at line 14
+2025-05-02 02:32:57,021 - INFO - Solver reset
+2025-05-02 02:32:57,022 - WARNING - Potential division by zero at line 15
+2025-05-02 02:32:57,040 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,058 - INFO - Solver check result: sat
+2025-05-02 02:32:57,058 - WARNING - Potential division by zero at line 17
+2025-05-02 02:32:57,062 - INFO - Solver reset
+2025-05-02 02:32:57,085 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,107 - INFO - Solver check result: sat
+2025-05-02 02:32:57,107 - WARNING - Potential division by zero at line 19
+2025-05-02 02:32:57,111 - INFO - Solver reset
+2025-05-02 02:32:57,130 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,134 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,154 - INFO - Solver check result: sat
+2025-05-02 02:32:57,155 - WARNING - Potential out-of-bounds access at line 25
+2025-05-02 02:32:57,158 - INFO - Solver reset
+2025-05-02 02:32:57,178 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,180 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,202 - INFO - Solver check result: sat
+2025-05-02 02:32:57,203 - WARNING - Potential out-of-bounds access at line 27
+2025-05-02 02:32:57,207 - INFO - Solver reset
+2025-05-02 02:32:57,224 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,227 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,244 - INFO - Solver check result: sat
+2025-05-02 02:32:57,245 - WARNING - Potential out-of-bounds access at line 29
+2025-05-02 02:32:57,249 - INFO - Solver reset
+2025-05-02 02:32:57,268 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,272 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,290 - INFO - Solver check result: sat
+2025-05-02 02:32:57,290 - WARNING - Potential out-of-bounds access at line 31
+2025-05-02 02:32:57,294 - INFO - Solver reset
+2025-05-02 02:32:57,311 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,314 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,331 - INFO - Solver check result: sat
+2025-05-02 02:32:57,332 - WARNING - Potential out-of-bounds access at line 19
+2025-05-02 02:32:57,338 - INFO - Solver reset
+2025-05-02 02:32:57,356 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,359 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,378 - INFO - Solver check result: sat
+2025-05-02 02:32:57,378 - WARNING - Potential out-of-bounds access at line 31
+2025-05-02 02:32:57,382 - INFO - Solver reset
+2025-05-02 02:32:57,401 - INFO - Added constraint: condition == False
+2025-05-02 02:32:57,421 - INFO - Solver check result: sat
+2025-05-02 02:32:57,422 - WARNING - Potential assertion failure at line 37
+2025-05-02 02:32:57,426 - INFO - Solver reset
+2025-05-02 02:32:57,448 - INFO - Added constraint: condition == False
+2025-05-02 02:32:57,468 - INFO - Solver check result: sat
+2025-05-02 02:32:57,469 - WARNING - Potential assertion failure at line 39
+2025-05-02 02:32:57,473 - INFO - Solver reset
+2025-05-02 02:32:57,490 - INFO - Added constraint: condition == False
+2025-05-02 02:32:57,508 - INFO - Solver check result: sat
+2025-05-02 02:32:57,509 - WARNING - Potential assertion failure at line 41
+2025-05-02 02:32:57,513 - INFO - Solver reset
+2025-05-02 02:32:57,535 - INFO - Added constraint: condition == False
+2025-05-02 02:32:57,553 - INFO - Solver check result: sat
+2025-05-02 02:32:57,553 - WARNING - Potential assertion failure at line 43
+2025-05-02 02:32:57,557 - INFO - Solver reset
+2025-05-02 02:32:57,577 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:57,593 - INFO - Solver check result: sat
+2025-05-02 02:32:57,593 - WARNING - Potential infinite recursion in infinite1 at line 47
+2025-05-02 02:32:57,597 - INFO - Solver reset
+2025-05-02 02:32:57,614 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:57,633 - INFO - Solver check result: sat
+2025-05-02 02:32:57,636 - WARNING - Potential infinite recursion in infinite2 at line 50
+2025-05-02 02:32:57,640 - INFO - Solver reset
+2025-05-02 02:32:57,658 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:57,676 - INFO - Solver check result: sat
+2025-05-02 02:32:57,676 - WARNING - Potential infinite recursion in inner at line 54
+2025-05-02 02:32:57,680 - INFO - Solver reset
+2025-05-02 02:32:57,682 - WARNING - Potential import error for module non_existing_module at line 4
+2025-05-02 02:32:57,687 - WARNING - Potential import error for module sin at line 5
+2025-05-02 02:32:57,688 - WARNING - Potential import error for module non_existing at line 5
+2025-05-02 02:32:57,689 - WARNING - Potential import error for module fake_module at line 6
+2025-05-02 02:32:57,691 - WARNING - Potential import error for module fake_attr at line 7
+2025-05-02 02:32:57,692 - INFO - Completed vulnerability checks
+2025-05-02 02:32:57,693 - INFO - CorrectnessChecker initialized
+2025-05-02 02:32:57,695 - INFO - Total checks: 25, Failed checks: 22
+2025-05-02 02:32:57,695 - INFO - Starting benchmark
+2025-05-02 02:32:57,695 - INFO - ESBMCWrapper initialized
+2025-05-02 02:32:57,696 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 8, 'cfg_nodes': 11, 'errors': [], 'warnings': []}
+2025-05-02 02:32:57,697 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:32:57,697 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:32:57,698 - INFO - Starting vulnerability checks
+2025-05-02 02:32:57,721 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,739 - INFO - Solver check result: sat
+2025-05-02 02:32:57,739 - WARNING - Potential division by zero at line 14
+2025-05-02 02:32:57,742 - INFO - Solver reset
+2025-05-02 02:32:57,743 - WARNING - Potential division by zero at line 15
+2025-05-02 02:32:57,760 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,778 - INFO - Solver check result: sat
+2025-05-02 02:32:57,778 - WARNING - Potential division by zero at line 17
+2025-05-02 02:32:57,782 - INFO - Solver reset
+2025-05-02 02:32:57,802 - INFO - Added constraint: denom == 0
+2025-05-02 02:32:57,820 - INFO - Solver check result: sat
+2025-05-02 02:32:57,820 - WARNING - Potential division by zero at line 19
+2025-05-02 02:32:57,823 - INFO - Solver reset
+2025-05-02 02:32:57,842 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,845 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,863 - INFO - Solver check result: sat
+2025-05-02 02:32:57,864 - WARNING - Potential out-of-bounds access at line 25
+2025-05-02 02:32:57,870 - INFO - Solver reset
+2025-05-02 02:32:57,888 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,889 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,907 - INFO - Solver check result: sat
+2025-05-02 02:32:57,907 - WARNING - Potential out-of-bounds access at line 27
+2025-05-02 02:32:57,911 - INFO - Solver reset
+2025-05-02 02:32:57,928 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,930 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:57,957 - INFO - Solver check result: sat
+2025-05-02 02:32:57,958 - WARNING - Potential out-of-bounds access at line 29
+2025-05-02 02:32:57,961 - INFO - Solver reset
+2025-05-02 02:32:57,978 - INFO - Added constraint: length == 3
+2025-05-02 02:32:57,980 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:58,002 - INFO - Solver check result: sat
+2025-05-02 02:32:58,003 - WARNING - Potential out-of-bounds access at line 31
+2025-05-02 02:32:58,006 - INFO - Solver reset
+2025-05-02 02:32:58,025 - INFO - Added constraint: length == 3
+2025-05-02 02:32:58,029 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:58,057 - INFO - Solver check result: sat
+2025-05-02 02:32:58,058 - WARNING - Potential out-of-bounds access at line 19
+2025-05-02 02:32:58,061 - INFO - Solver reset
+2025-05-02 02:32:58,110 - INFO - Added constraint: length == 3
+2025-05-02 02:32:58,118 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:32:58,158 - INFO - Solver check result: sat
+2025-05-02 02:32:58,159 - WARNING - Potential out-of-bounds access at line 31
+2025-05-02 02:32:58,163 - INFO - Solver reset
+2025-05-02 02:32:58,189 - INFO - Added constraint: condition == False
+2025-05-02 02:32:58,222 - INFO - Solver check result: sat
+2025-05-02 02:32:58,223 - WARNING - Potential assertion failure at line 37
+2025-05-02 02:32:58,226 - INFO - Solver reset
+2025-05-02 02:32:58,242 - INFO - Added constraint: condition == False
+2025-05-02 02:32:58,258 - INFO - Solver check result: sat
+2025-05-02 02:32:58,259 - WARNING - Potential assertion failure at line 39
+2025-05-02 02:32:58,262 - INFO - Solver reset
+2025-05-02 02:32:58,279 - INFO - Added constraint: condition == False
+2025-05-02 02:32:58,297 - INFO - Solver check result: sat
+2025-05-02 02:32:58,297 - WARNING - Potential assertion failure at line 41
+2025-05-02 02:32:58,303 - INFO - Solver reset
+2025-05-02 02:32:58,322 - INFO - Added constraint: condition == False
+2025-05-02 02:32:58,342 - INFO - Solver check result: sat
+2025-05-02 02:32:58,342 - WARNING - Potential assertion failure at line 43
+2025-05-02 02:32:58,346 - INFO - Solver reset
+2025-05-02 02:32:58,363 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:58,381 - INFO - Solver check result: sat
+2025-05-02 02:32:58,381 - WARNING - Potential infinite recursion in infinite1 at line 47
+2025-05-02 02:32:58,387 - INFO - Solver reset
+2025-05-02 02:32:58,404 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:58,422 - INFO - Solver check result: sat
+2025-05-02 02:32:58,422 - WARNING - Potential infinite recursion in infinite2 at line 50
+2025-05-02 02:32:58,426 - INFO - Solver reset
+2025-05-02 02:32:58,443 - INFO - Added constraint: depth > 1000
+2025-05-02 02:32:58,461 - INFO - Solver check result: sat
+2025-05-02 02:32:58,462 - WARNING - Potential infinite recursion in inner at line 54
+2025-05-02 02:32:58,465 - INFO - Solver reset
+2025-05-02 02:32:58,470 - WARNING - Potential import error for module non_existing_module at line 4
+2025-05-02 02:32:58,471 - WARNING - Potential import error for module sin at line 5
+2025-05-02 02:32:58,472 - WARNING - Potential import error for module non_existing at line 5
+2025-05-02 02:32:58,473 - WARNING - Potential import error for module fake_module at line 6
+2025-05-02 02:32:58,474 - WARNING - Potential import error for module fake_attr at line 7
+2025-05-02 02:32:58,475 - INFO - Completed vulnerability checks
+2025-05-02 02:32:58,476 - INFO - Benchmark completed in 0.78 seconds
+2025-05-02 02:32:58,476 - INFO - Comparison with other tools: {'PythonModelChecker': {'time': 0.7803342342376709, 'vulnerabilities': 22}, 'PyLint': {'time': 1.1705013513565063, 'vulnerabilities': 'Not implemented'}, 'Bandit': {'time': 0.936401081085205, 'vulnerabilities': 'Not implemented'}}
+2025-05-02 02:32:58,479 - INFO - Generated text report: results.txt
+2025-05-02 02:32:58,480 - INFO - Generated HTML report: results.html
+2025-05-02 02:32:58,585 - INFO - VerificationUI initialized
+2025-05-02 02:33:32,848 - INFO - Generated documentation: design.md, api_reference.md
+2025-05-02 02:34:56,276 - INFO - Starting PyVeriCheck
+2025-05-02 02:34:56,276 - INFO - Parser initialized
+2025-05-02 02:34:56,277 - INFO - Parsed source code to AST
+2025-05-02 02:34:56,278 - INFO - Found control structure: If at line 12
+2025-05-02 02:34:56,278 - INFO - Found control structure: Try at line 17
+2025-05-02 02:34:56,278 - INFO - Found control structure: For at line 25
+2025-05-02 02:34:56,279 - INFO - Found control structure: While at line 27
+2025-05-02 02:34:56,279 - INFO - Found control structure: With at line 29
+2025-05-02 02:34:56,279 - INFO - Found control structure: If at line 31
+2025-05-02 02:34:56,280 - INFO - Found OOP element: Class MathProcessor at line 4
+2025-05-02 02:34:56,282 - INFO - Found OOP element: Method __init__ in class MathProcessor at line 5
+2025-05-02 02:34:56,283 - INFO - Found OOP element: Method calculate in class MathProcessor at line 8
+2025-05-02 02:34:56,284 - INFO - TypeChecker initialized
+2025-05-02 02:34:56,285 - INFO - Annotated class MathProcessor with type class at line 4
+2025-05-02 02:34:56,286 - INFO - Annotated function argument n with type int at line 11
+2025-05-02 02:34:56,287 - INFO - Annotated function recursive_factorial with type function at line 11
+2025-05-02 02:34:56,287 - INFO - Annotated function argument x with type int at line 16
+2025-05-02 02:34:56,287 - INFO - Annotated function process_input with type function at line 16
+2025-05-02 02:34:56,288 - INFO - Annotated function argument self with type Any at line 5
+2025-05-02 02:34:56,289 - INFO - Annotated function argument value with type int at line 5
+2025-05-02 02:34:56,289 - INFO - Annotated function __init__ with type function at line 5
+2025-05-02 02:34:56,290 - INFO - Annotated function argument self with type Any at line 8
+2025-05-02 02:34:56,290 - INFO - Annotated function calculate with type function at line 8
+2025-05-02 02:34:56,293 - INFO - Annotated variable int with type str at line 11
+2025-05-02 02:34:56,294 - INFO - Annotated variable int with type str at line 16
+2025-05-02 02:34:56,295 - INFO - Annotated variable int with type str at line 8
+2025-05-02 02:34:56,296 - INFO - Annotated variable process_input with type str at line 37
+2025-05-02 02:34:56,296 - INFO - Annotated variable recursive_factorial with type str at line 38
+2025-05-02 02:34:56,297 - INFO - Annotated variable value with type str at line 6
+2025-05-02 02:34:56,297 - INFO - Annotated variable int with type str at line 11
+2025-05-02 02:34:56,298 - INFO - Annotated variable n with type int at line 12
+2025-05-02 02:34:56,298 - INFO - Annotated variable int with type str at line 16
+2025-05-02 02:34:56,298 - INFO - Annotated variable result with type str at line 18
+2025-05-02 02:34:56,299 - INFO - Annotated variable numbers with type int at line 19
+2025-05-02 02:34:56,299 - INFO - Annotated variable index with type str at line 20
+2025-05-02 02:34:56,300 - INFO - Annotated variable value with type str at line 21
+2025-05-02 02:34:56,300 - INFO - Annotated variable total with type str at line 22
+2025-05-02 02:34:56,304 - INFO - Annotated variable processor with type str at line 24
+2025-05-02 02:34:56,304 - INFO - Annotated variable i with type str at line 25
+2025-05-02 02:34:56,305 - INFO - Annotated variable result with type str at line 33
+2025-05-02 02:34:56,307 - INFO - Annotated variable ZeroDivisionError with type str at line 34
+2025-05-02 02:34:56,307 - INFO - Annotated variable int with type str at line 5
+2025-05-02 02:34:56,308 - INFO - Annotated variable self with type str at line 6
+2025-05-02 02:34:56,308 - INFO - Annotated variable n with type int at line 13
+2025-05-02 02:34:56,309 - INFO - Annotated variable x with type str at line 20
+2025-05-02 02:34:56,309 - INFO - Annotated variable numbers with type int at line 21
+2025-05-02 02:34:56,309 - INFO - Annotated variable index with type str at line 21
+2025-05-02 02:34:56,310 - INFO - Annotated variable x with type str at line 22
+2025-05-02 02:34:56,310 - INFO - Annotated variable x with type str at line 23
+2025-05-02 02:34:56,311 - INFO - Annotated variable MathProcessor with type str at line 24
+2025-05-02 02:34:56,312 - INFO - Annotated variable x with type str at line 24
+2025-05-02 02:34:56,312 - INFO - Annotated variable range with type str at line 25
+2025-05-02 02:34:56,313 - INFO - Annotated variable result with type str at line 26
+2025-05-02 02:34:56,313 - INFO - Annotated variable i with type str at line 26
+2025-05-02 02:34:56,314 - INFO - Annotated variable result with type str at line 27
+2025-05-02 02:34:56,314 - INFO - Annotated variable result with type str at line 28
+2025-05-02 02:34:56,315 - INFO - Annotated variable f with type str at line 29
+2025-05-02 02:34:56,315 - INFO - Annotated variable x with type str at line 31
+2025-05-02 02:34:56,316 - INFO - Annotated variable result with type str at line 32
+2025-05-02 02:34:56,321 - INFO - Annotated variable self with type str at line 9
+2025-05-02 02:34:56,326 - INFO - Annotated variable recursive_factorial with type str at line 13
+2025-05-02 02:34:56,328 - INFO - Annotated variable x with type str at line 18
+2025-05-02 02:34:56,329 - INFO - Annotated variable open with type str at line 29
+2025-05-02 02:34:56,330 - INFO - Annotated variable n with type int at line 13
+2025-05-02 02:34:56,331 - INFO - Annotated variable processor with type str at line 32
+2025-05-02 02:34:56,356 - INFO - Exported AST to ast_output.json
+2025-05-02 02:34:56,377 - INFO - Exported annotated AST to ast_annotated.json
+2025-05-02 02:34:56,378 - INFO - IRConverter initialized
+2025-05-02 02:34:56,379 - INFO - Added class: MathProcessor
+2025-05-02 02:34:56,379 - INFO - Added function: recursive_factorial
+2025-05-02 02:34:56,380 - INFO - Added function: process_input
+2025-05-02 02:34:56,381 - INFO - Saved symbol table to symbol_table.json
+2025-05-02 02:34:56,382 - INFO - Added CFG start node
+2025-05-02 02:34:56,382 - INFO - Added CFG node: If at line 12
+2025-05-02 02:34:56,383 - INFO - Added CFG node: Try at line 17
+2025-05-02 02:34:56,383 - INFO - Added CFG node: For at line 25
+2025-05-02 02:34:56,384 - INFO - Added CFG node: While at line 27
+2025-05-02 02:34:56,386 - INFO - Added CFG node: With at line 29
+2025-05-02 02:34:56,387 - INFO - Added CFG node: If at line 31
+2025-05-02 02:34:56,387 - INFO - Added CFG end node
+2025-05-02 02:34:56,392 - INFO - Saved CFG to cfg.json
+2025-05-02 02:34:56,393 - INFO - ESBMCWrapper initialized
+2025-05-02 02:34:56,393 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 3, 'cfg_nodes': 8, 'errors': [], 'warnings': []}
+2025-05-02 02:34:56,405 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:34:56,406 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:34:56,407 - INFO - Starting vulnerability checks
+2025-05-02 02:34:56,442 - INFO - Added constraint: denom == 0
+2025-05-02 02:34:56,465 - INFO - Solver check result: sat
+2025-05-02 02:34:56,466 - WARNING - Potential division by zero at line 18
+2025-05-02 02:34:56,475 - INFO - Solver reset
+2025-05-02 02:34:56,506 - INFO - Added constraint: length == 3
+2025-05-02 02:34:56,513 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:34:56,548 - INFO - Solver check result: sat
+2025-05-02 02:34:56,548 - WARNING - Potential out-of-bounds access at line 21
+2025-05-02 02:34:56,554 - INFO - Solver reset
+2025-05-02 02:34:56,580 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:34:56,582 - INFO - Added constraint: a > 0
+2025-05-02 02:34:56,583 - INFO - Added constraint: b > 0
+2025-05-02 02:34:57,135 - INFO - Solver check result: sat
+2025-05-02 02:34:57,135 - WARNING - Potential arithmetic overflow at line 9
+2025-05-02 02:34:57,139 - INFO - Solver reset
+2025-05-02 02:34:57,162 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:34:57,163 - INFO - Added constraint: a > 0
+2025-05-02 02:34:57,165 - INFO - Added constraint: b > 0
+2025-05-02 02:34:57,349 - INFO - Solver check result: sat
+2025-05-02 02:34:57,350 - WARNING - Potential arithmetic overflow at line 13
+2025-05-02 02:34:57,357 - INFO - Solver reset
+2025-05-02 02:34:57,390 - INFO - Added constraint: a + b > 2147483647
+2025-05-02 02:34:57,393 - INFO - Added constraint: a > 0
+2025-05-02 02:34:57,395 - INFO - Added constraint: b > 0
+2025-05-02 02:34:57,434 - INFO - Solver check result: sat
+2025-05-02 02:34:57,439 - WARNING - Potential arithmetic overflow at line 22
+2025-05-02 02:34:57,444 - INFO - Solver reset
+2025-05-02 02:34:57,474 - INFO - Added constraint: condition == False
+2025-05-02 02:34:57,499 - INFO - Solver check result: sat
+2025-05-02 02:34:57,500 - WARNING - Potential assertion failure at line 23
+2025-05-02 02:34:57,510 - INFO - Solver reset
+2025-05-02 02:34:57,544 - INFO - Added constraint: depth > 1000
+2025-05-02 02:34:57,597 - INFO - Solver check result: sat
+2025-05-02 02:34:57,605 - WARNING - Potential infinite recursion in recursive_factorial at line 11
+2025-05-02 02:34:57,625 - INFO - Solver reset
+2025-05-02 02:34:57,642 - WARNING - Potential import error for module fake_module at line 2
+2025-05-02 02:34:57,648 - INFO - Completed vulnerability checks
+2025-05-02 02:34:57,663 - INFO - Starting benchmark
+2025-05-02 02:34:57,674 - INFO - ESBMCWrapper initialized
+2025-05-02 02:34:57,679 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 3, 'cfg_nodes': 8, 'errors': [], 'warnings': []}
+2025-05-02 02:34:57,692 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:34:57,700 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:34:57,717 - INFO - Starting vulnerability checks
+2025-05-02 02:34:57,787 - INFO - Added constraint: denom == 0
+2025-05-02 02:34:57,834 - INFO - Solver check result: sat
+2025-05-02 02:34:57,837 - WARNING - Potential division by zero at line 18
+2025-05-02 02:34:57,852 - INFO - Solver reset
+2025-05-02 02:34:57,925 - INFO - Added constraint: length == 3
+2025-05-02 02:34:57,934 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:34:58,004 - INFO - Solver check result: sat
+2025-05-02 02:34:58,020 - WARNING - Potential out-of-bounds access at line 21
+2025-05-02 02:34:58,039 - INFO - Solver reset
+2025-05-02 02:34:58,092 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:34:58,099 - INFO - Added constraint: a > 0
+2025-05-02 02:34:58,113 - INFO - Added constraint: b > 0
+2025-05-02 02:34:59,203 - INFO - Solver check result: sat
+2025-05-02 02:34:59,203 - WARNING - Potential arithmetic overflow at line 9
+2025-05-02 02:34:59,207 - INFO - Solver reset
+2025-05-02 02:34:59,234 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:34:59,238 - INFO - Added constraint: a > 0
+2025-05-02 02:34:59,240 - INFO - Added constraint: b > 0
+2025-05-02 02:34:59,767 - INFO - Solver check result: sat
+2025-05-02 02:34:59,767 - WARNING - Potential arithmetic overflow at line 13
+2025-05-02 02:34:59,772 - INFO - Solver reset
+2025-05-02 02:34:59,796 - INFO - Added constraint: a + b > 2147483647
+2025-05-02 02:34:59,799 - INFO - Added constraint: a > 0
+2025-05-02 02:34:59,806 - INFO - Added constraint: b > 0
+2025-05-02 02:34:59,833 - INFO - Solver check result: sat
+2025-05-02 02:34:59,837 - WARNING - Potential arithmetic overflow at line 22
+2025-05-02 02:34:59,843 - INFO - Solver reset
+2025-05-02 02:34:59,863 - INFO - Added constraint: condition == False
+2025-05-02 02:34:59,894 - INFO - Solver check result: sat
+2025-05-02 02:34:59,894 - WARNING - Potential assertion failure at line 23
+2025-05-02 02:34:59,899 - INFO - Solver reset
+2025-05-02 02:34:59,929 - INFO - Added constraint: depth > 1000
+2025-05-02 02:34:59,960 - INFO - Solver check result: sat
+2025-05-02 02:34:59,961 - WARNING - Potential infinite recursion in recursive_factorial at line 11
+2025-05-02 02:34:59,966 - INFO - Solver reset
+2025-05-02 02:34:59,973 - WARNING - Potential import error for module fake_module at line 2
+2025-05-02 02:34:59,975 - INFO - Completed vulnerability checks
+2025-05-02 02:34:59,976 - INFO - Benchmark completed in 2.30 seconds
+2025-05-02 02:34:59,976 - INFO - Comparison with other tools: {'PythonModelChecker': {'time': 2.3017022609710693, 'vulnerabilities': 8}, 'PyLint': {'time': 3.452553391456604, 'vulnerabilities': 'Not implemented'}, 'Bandit': {'time': 2.762042713165283, 'vulnerabilities': 'Not implemented'}}
+2025-05-02 02:34:59,978 - INFO - Generated text report: results.txt
+2025-05-02 02:34:59,980 - INFO - Generated HTML report: results.html
+2025-05-02 02:35:25,710 - INFO - Generated documentation: design.md, api_reference.md
+2025-05-02 02:35:41,080 - INFO - Starting PyVeriCheck
+2025-05-02 02:35:41,081 - INFO - Parser initialized
+2025-05-02 02:35:41,081 - ERROR - Syntax error in source code: expected ':' (<unknown>, line 4)
+2025-05-02 02:35:41,082 - ERROR - Pipeline failed: expected ':' (<unknown>, line 4)
+2025-05-02 02:36:05,830 - INFO - Starting PyVeriCheck
+2025-05-02 02:36:05,830 - INFO - Parser initialized
+2025-05-02 02:36:05,831 - INFO - Parsed source code to AST
+2025-05-02 02:36:05,832 - INFO - Found control structure: If at line 12
+2025-05-02 02:36:05,832 - INFO - Found control structure: Try at line 17
+2025-05-02 02:36:05,833 - INFO - Found control structure: If at line 18
+2025-05-02 02:36:05,833 - INFO - Found control structure: For at line 32
+2025-05-02 02:36:05,834 - INFO - Found control structure: While at line 35
+2025-05-02 02:36:05,834 - INFO - Found control structure: Try at line 38
+2025-05-02 02:36:05,834 - INFO - Found control structure: If at line 44
+2025-05-02 02:36:05,835 - INFO - Found control structure: With at line 39
+2025-05-02 02:36:05,836 - INFO - Found OOP element: Class MathProcessor at line 4
+2025-05-02 02:36:05,838 - INFO - Found OOP element: Method __init__ in class MathProcessor at line 5
+2025-05-02 02:36:05,839 - INFO - Found OOP element: Method calculate in class MathProcessor at line 8
+2025-05-02 02:36:05,840 - INFO - TypeChecker initialized
+2025-05-02 02:36:05,841 - INFO - Annotated class MathProcessor with type class at line 4
+2025-05-02 02:36:05,841 - INFO - Annotated function argument n with type int at line 11
+2025-05-02 02:36:05,842 - INFO - Annotated function recursive_factorial with type function at line 11
+2025-05-02 02:36:05,843 - INFO - Annotated function argument x with type int at line 16
+2025-05-02 02:36:05,843 - INFO - Annotated function process_input with type function at line 16
+2025-05-02 02:36:05,844 - INFO - Annotated function argument self with type Any at line 5
+2025-05-02 02:36:05,844 - INFO - Annotated function argument value with type int at line 5
+2025-05-02 02:36:05,844 - INFO - Annotated function __init__ with type function at line 5
+2025-05-02 02:36:05,845 - INFO - Annotated function argument self with type Any at line 8
+2025-05-02 02:36:05,845 - INFO - Annotated function calculate with type function at line 8
+2025-05-02 02:36:05,846 - INFO - Annotated variable int with type str at line 11
+2025-05-02 02:36:05,850 - INFO - Annotated variable int with type str at line 16
+2025-05-02 02:36:05,851 - INFO - Annotated variable int with type str at line 8
+2025-05-02 02:36:05,852 - INFO - Annotated variable process_input with type str at line 52
+2025-05-02 02:36:05,853 - INFO - Annotated variable recursive_factorial with type str at line 53
+2025-05-02 02:36:05,853 - INFO - Annotated variable value with type str at line 6
+2025-05-02 02:36:05,854 - INFO - Annotated variable int with type str at line 11
+2025-05-02 02:36:05,854 - INFO - Annotated variable n with type int at line 12
+2025-05-02 02:36:05,855 - INFO - Annotated variable int with type str at line 16
+2025-05-02 02:36:05,855 - INFO - Annotated variable result with type str at line 20
+2025-05-02 02:36:05,856 - INFO - Annotated variable numbers with type int at line 22
+2025-05-02 02:36:05,856 - INFO - Annotated variable index with type str at line 23
+2025-05-02 02:36:05,857 - INFO - Annotated variable value with type str at line 24
+2025-05-02 02:36:05,857 - INFO - Annotated variable total with type str at line 26
+2025-05-02 02:36:05,858 - INFO - Annotated variable processor with type str at line 30
+2025-05-02 02:36:05,860 - INFO - Annotated variable i with type str at line 32
+2025-05-02 02:36:05,862 - INFO - Annotated variable ZeroDivisionError with type str at line 49
+2025-05-02 02:36:05,863 - INFO - Annotated variable int with type str at line 5
+2025-05-02 02:36:05,863 - INFO - Annotated variable self with type str at line 6
+2025-05-02 02:36:05,864 - INFO - Annotated variable n with type int at line 13
+2025-05-02 02:36:05,864 - INFO - Annotated variable x with type str at line 18
+2025-05-02 02:36:05,865 - INFO - Annotated variable x with type str at line 23
+2025-05-02 02:36:05,865 - INFO - Annotated variable numbers with type int at line 24
+2025-05-02 02:36:05,866 - INFO - Annotated variable index with type str at line 24
+2025-05-02 02:36:05,867 - INFO - Annotated variable x with type str at line 26
+2025-05-02 02:36:05,867 - INFO - Annotated variable x with type str at line 28
+2025-05-02 02:36:05,868 - INFO - Annotated variable MathProcessor with type str at line 30
+2025-05-02 02:36:05,868 - INFO - Annotated variable x with type str at line 30
+2025-05-02 02:36:05,869 - INFO - Annotated variable range with type str at line 32
+2025-05-02 02:36:05,869 - INFO - Annotated variable result with type str at line 33
+2025-05-02 02:36:05,870 - INFO - Annotated variable i with type str at line 33
+2025-05-02 02:36:05,870 - INFO - Annotated variable result with type str at line 35
+2025-05-02 02:36:05,871 - INFO - Annotated variable result with type str at line 36
+2025-05-02 02:36:05,871 - INFO - Annotated variable FileNotFoundError with type str at line 41
+2025-05-02 02:36:05,872 - INFO - Annotated variable x with type str at line 44
+2025-05-02 02:36:05,872 - INFO - Annotated variable result with type str at line 45
+2025-05-02 02:36:05,872 - INFO - Annotated variable int with type str at line 47
+2025-05-02 02:36:05,873 - INFO - Annotated variable result with type str at line 47
+2025-05-02 02:36:05,874 - INFO - Annotated variable self with type str at line 9
+2025-05-02 02:36:05,874 - INFO - Annotated variable recursive_factorial with type str at line 13
+2025-05-02 02:36:05,875 - INFO - Annotated variable ZeroDivisionError with type str at line 19
+2025-05-02 02:36:05,877 - INFO - Annotated variable x with type str at line 20
+2025-05-02 02:36:05,878 - INFO - Annotated variable f with type str at line 39
+2025-05-02 02:36:05,879 - INFO - Annotated variable n with type int at line 13
+2025-05-02 02:36:05,880 - INFO - Annotated variable open with type str at line 39
+2025-05-02 02:36:05,881 - INFO - Annotated variable processor with type str at line 45
+2025-05-02 02:36:05,890 - INFO - Exported AST to ast_output.json
+2025-05-02 02:36:05,916 - INFO - Exported annotated AST to ast_annotated.json
+2025-05-02 02:36:05,918 - INFO - IRConverter initialized
+2025-05-02 02:36:05,919 - INFO - Added class: MathProcessor
+2025-05-02 02:36:05,920 - INFO - Added function: recursive_factorial
+2025-05-02 02:36:05,920 - INFO - Added function: process_input
+2025-05-02 02:36:05,922 - INFO - Saved symbol table to symbol_table.json
+2025-05-02 02:36:05,924 - INFO - Added CFG start node
+2025-05-02 02:36:05,929 - INFO - Added CFG node: If at line 12
+2025-05-02 02:36:05,930 - INFO - Added CFG node: Try at line 17
+2025-05-02 02:36:05,930 - INFO - Added CFG node: If at line 18
+2025-05-02 02:36:05,931 - INFO - Added CFG node: For at line 32
+2025-05-02 02:36:05,931 - INFO - Added CFG node: While at line 35
+2025-05-02 02:36:05,931 - INFO - Added CFG node: Try at line 38
+2025-05-02 02:36:05,933 - INFO - Added CFG node: If at line 44
+2025-05-02 02:36:05,934 - INFO - Added CFG node: With at line 39
+2025-05-02 02:36:05,935 - INFO - Added CFG end node
+2025-05-02 02:36:05,937 - INFO - Saved CFG to cfg.json
+2025-05-02 02:36:05,938 - INFO - ESBMCWrapper initialized
+2025-05-02 02:36:05,939 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 3, 'cfg_nodes': 10, 'errors': [], 'warnings': []}
+2025-05-02 02:36:05,954 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:36:05,955 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:36:05,957 - INFO - Starting vulnerability checks
+2025-05-02 02:36:05,995 - INFO - Added constraint: denom == 0
+2025-05-02 02:36:06,021 - INFO - Solver check result: sat
+2025-05-02 02:36:06,022 - WARNING - Potential division by zero at line 20
+2025-05-02 02:36:06,026 - INFO - Solver reset
+2025-05-02 02:36:06,049 - INFO - Added constraint: length == 3
+2025-05-02 02:36:06,053 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:36:06,072 - INFO - Solver check result: sat
+2025-05-02 02:36:06,074 - WARNING - Potential out-of-bounds access at line 24
+2025-05-02 02:36:06,087 - INFO - Solver reset
+2025-05-02 02:36:06,112 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:36:06,115 - INFO - Added constraint: a > 0
+2025-05-02 02:36:06,117 - INFO - Added constraint: b > 0
+2025-05-02 02:36:06,980 - INFO - Solver check result: sat
+2025-05-02 02:36:06,982 - WARNING - Potential arithmetic overflow at line 9
+2025-05-02 02:36:06,996 - INFO - Solver reset
+2025-05-02 02:36:07,068 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:36:07,072 - INFO - Added constraint: a > 0
+2025-05-02 02:36:07,077 - INFO - Added constraint: b > 0
+2025-05-02 02:36:07,280 - INFO - Solver check result: sat
+2025-05-02 02:36:07,281 - WARNING - Potential arithmetic overflow at line 13
+2025-05-02 02:36:07,284 - INFO - Solver reset
+2025-05-02 02:36:07,305 - INFO - Added constraint: a + b > 2147483647
+2025-05-02 02:36:07,308 - INFO - Added constraint: a > 0
+2025-05-02 02:36:07,311 - INFO - Added constraint: b > 0
+2025-05-02 02:36:07,336 - INFO - Solver check result: sat
+2025-05-02 02:36:07,337 - WARNING - Potential arithmetic overflow at line 26
+2025-05-02 02:36:07,347 - INFO - Solver reset
+2025-05-02 02:36:07,367 - INFO - Added constraint: condition == False
+2025-05-02 02:36:07,400 - INFO - Solver check result: sat
+2025-05-02 02:36:07,401 - WARNING - Potential assertion failure at line 28
+2025-05-02 02:36:07,405 - INFO - Solver reset
+2025-05-02 02:36:07,430 - INFO - Added constraint: depth > 1000
+2025-05-02 02:36:07,453 - INFO - Solver check result: sat
+2025-05-02 02:36:07,454 - WARNING - Potential infinite recursion in recursive_factorial at line 11
+2025-05-02 02:36:07,460 - INFO - Solver reset
+2025-05-02 02:36:07,463 - INFO - Completed vulnerability checks
+2025-05-02 02:36:07,464 - INFO - Starting benchmark
+2025-05-02 02:36:07,465 - INFO - ESBMCWrapper initialized
+2025-05-02 02:36:07,465 - INFO - Mock ESBMC verification: {'status': 'success', 'message': 'Mock ESBMC verification completed', 'symbol_table_size': 3, 'cfg_nodes': 10, 'errors': [], 'warnings': []}
+2025-05-02 02:36:07,466 - INFO - SMTSolver initialized with Z3
+2025-05-02 02:36:07,466 - INFO - VulnerabilityChecker initialized
+2025-05-02 02:36:07,467 - INFO - Starting vulnerability checks
+2025-05-02 02:36:07,490 - INFO - Added constraint: denom == 0
+2025-05-02 02:36:07,507 - INFO - Solver check result: sat
+2025-05-02 02:36:07,508 - WARNING - Potential division by zero at line 20
+2025-05-02 02:36:07,516 - INFO - Solver reset
+2025-05-02 02:36:07,539 - INFO - Added constraint: length == 3
+2025-05-02 02:36:07,541 - INFO - Added constraint: Or(index < 0, index >= length)
+2025-05-02 02:36:07,571 - INFO - Solver check result: sat
+2025-05-02 02:36:07,571 - WARNING - Potential out-of-bounds access at line 24
+2025-05-02 02:36:07,575 - INFO - Solver reset
+2025-05-02 02:36:07,602 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:36:07,603 - INFO - Added constraint: a > 0
+2025-05-02 02:36:07,604 - INFO - Added constraint: b > 0
+2025-05-02 02:36:08,382 - INFO - Solver check result: sat
+2025-05-02 02:36:08,383 - WARNING - Potential arithmetic overflow at line 9
+2025-05-02 02:36:08,387 - INFO - Solver reset
+2025-05-02 02:36:08,405 - INFO - Added constraint: a*b > 2147483647
+2025-05-02 02:36:08,406 - INFO - Added constraint: a > 0
+2025-05-02 02:36:08,410 - INFO - Added constraint: b > 0
+2025-05-02 02:36:08,905 - INFO - Solver check result: sat
+2025-05-02 02:36:08,905 - WARNING - Potential arithmetic overflow at line 13
+2025-05-02 02:36:08,909 - INFO - Solver reset
+2025-05-02 02:36:08,928 - INFO - Added constraint: a + b > 2147483647
+2025-05-02 02:36:08,930 - INFO - Added constraint: a > 0
+2025-05-02 02:36:08,931 - INFO - Added constraint: b > 0
+2025-05-02 02:36:08,950 - INFO - Solver check result: sat
+2025-05-02 02:36:08,950 - WARNING - Potential arithmetic overflow at line 26
+2025-05-02 02:36:08,956 - INFO - Solver reset
+2025-05-02 02:36:08,988 - INFO - Added constraint: condition == False
+2025-05-02 02:36:09,015 - INFO - Solver check result: sat
+2025-05-02 02:36:09,016 - WARNING - Potential assertion failure at line 28
+2025-05-02 02:36:09,019 - INFO - Solver reset
+2025-05-02 02:36:09,045 - INFO - Added constraint: depth > 1000
+2025-05-02 02:36:09,068 - INFO - Solver check result: sat
+2025-05-02 02:36:09,068 - WARNING - Potential infinite recursion in recursive_factorial at line 11
+2025-05-02 02:36:09,072 - INFO - Solver reset
+2025-05-02 02:36:09,074 - INFO - Completed vulnerability checks
+2025-05-02 02:36:09,075 - INFO - Benchmark completed in 1.61 seconds
+2025-05-02 02:36:09,075 - INFO - Comparison with other tools: {'PythonModelChecker': {'time': 1.6089966297149658, 'vulnerabilities': 7}, 'PyLint': {'time': 2.4134949445724487, 'vulnerabilities': 'Not implemented'}, 'Bandit': {'time': 1.9307959556579588, 'vulnerabilities': 'Not implemented'}}
+2025-05-02 02:36:09,079 - INFO - Generated text report: results.txt
+2025-05-02 02:36:09,081 - INFO - Generated HTML report: results.html
+2025-05-02 02:36:19,069 - INFO - Generated documentation: design.md, api_reference.md

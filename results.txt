@@ -1,44 +1,29 @@
 PyVeriCheck - Python Model Checker Results
 ========================================
 Summary:
-- Total Checks: 25
-- Issues Found: 22
-- Code Safety Percentage: 12.00%
-- Execution Time: 1.56 seconds
+- Total Checks: 8
+- Issues Found: 7
+- Code Safety: 12.50%
+- Execution Time: 1.61 seconds
 
 Vulnerabilities Found:
 Division By Zero:
-- Potential division by zero at line 14
-- Potential division by zero at line 15
-- Potential division by zero at line 17
-- Potential division by zero at line 19
+- Potential division by zero at line 20
 
 Indexing Errors:
-- Potential out-of-bounds access at line 25
-- Potential out-of-bounds access at line 27
-- Potential out-of-bounds access at line 29
-- Potential out-of-bounds access at line 31
-- Potential out-of-bounds access at line 19
-- Potential out-of-bounds access at line 31
+- Potential out-of-bounds access at line 24
 
 Arithmetic Overflow:
-- None found
+- Potential arithmetic overflow at line 9
+- Potential arithmetic overflow at line 13
+- Potential arithmetic overflow at line 26
 
 Assertion Failures:
-- Potential assertion failure at line 37
-- Potential assertion failure at line 39
-- Potential assertion failure at line 41
-- Potential assertion failure at line 43
+- Potential assertion failure at line 28
 
 Recursive Function Errors:
-- Potential infinite recursion in infinite1 at line 47
-- Potential infinite recursion in infinite2 at line 50
-- Potential infinite recursion in inner at line 54
+- Potential infinite recursion in recursive_factorial at line 11
 
 Import Errors:
-- Potential import error for module non_existing_module at line 4
-- Potential import error for module sin at line 5
-- Potential import error for module non_existing at line 5
-- Potential import error for module fake_module at line 6
-- Potential import error for module fake_attr at line 7
+- None found
 
