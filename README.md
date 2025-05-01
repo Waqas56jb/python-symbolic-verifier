@@ -1,9 +1,6 @@
  # 🔍 PyVeriCheck - Python Symbolic Model Checker
 
 ![PyVeriCheck Logo](https://img.icons8.com/color/96/000000/python.png) 
-![ESBMC Logo](https://esbmc.org/images/esbmc-logo.png)
-![Z3 Logo](https://raw.githubusercontent.com/Z3Prover/z3/master/docs/assets/images/z3logo.png)
-
 A complete symbolic verification tool for Python programs, integrating ESBMC and Z3 for formal verification of Python code.
 
 ## 📌 Table of Contents
@@ -178,7 +175,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Project Maintainer - [Your Name](mailto:your.email@example.com)
+Project Maintainer - [Waqas Naveed](mailto: waqas56jb@gmail.com)
 
 Project Link: https://github.com/Waqas56jb/python-symbolic-verifier.git
 
